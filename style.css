@@ -383,12 +383,12 @@ nav i:hover{
 
 .right3 button{
     width:38%;
-    height:4.1rem;
+    height:4.2rem;
     border: none;
     outline: none;
     font-size: 1.25rem;
     font-weight: 800;
-    margin-left: -12%;
+    margin-left: -20%;
     background-color:#ff960B;
     border-radius: 2rem;
     color: #f0e7f8;
@@ -738,6 +738,15 @@ footer i{
         margin-top: 15%;
     }
 
+    .btns{
+        display: flex;
+        width: 100%;
+    }
+
+    .btns2{
+        display: flex;
+    }
+
 
     .secondpt2{
         height: 100vh;
@@ -826,7 +835,7 @@ footer i{
 
     .right3 input{
         margin-top:-25%;
-        width: 65%;
+        width: 50vw;
     }
 
     .right3 h3{
@@ -903,3 +912,31 @@ footer i{
 
 }
 
+@media (max-width:350px) {
+    .secondpt img{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .secondpt2 img{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .secondpt h1{
+       margin-top: 0vh;
+    }
+
+    .leftpt2 h1{
+        margin-top: 0vh;
+    }
+    .leftpt2{
+        margin: 0%;
+    }
+
+    .secondpt2{
+        height: 60vh;
+    }
+}
