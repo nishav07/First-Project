@@ -324,6 +324,8 @@ signinbtn.addEventListener("click", (e) => {
             message:"Details From Signup Page",
         }
 
+
+
         emailjs.send(serviceid,signin_templateid,signparams).then(() => {
             signinbtn.innerText = "Sign up ✔";
             signinbtn.style.color = "#10042c";
@@ -340,10 +342,14 @@ signinbtn.addEventListener("click", (e) => {
             signinpass.value = "";
           });
 
+
+
     } else {
         signinbtn.innerText = " Not Submitted";
     }
   });
+
+  
 
 //---------------mobile humburger bars-----------------------------------------------
 
