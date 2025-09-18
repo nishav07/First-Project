@@ -351,7 +351,9 @@ let mobilenav = document.querySelector(".mobilebar");
 
 
   let baropen = false;
-  document.getElementById("bars").addEventListener("click" , () => {
+  const bars = document.getElementById("bars");
+  
+  bars.addEventListener("click" , () => {
     if(!baropen){
         mobilenav.style.display = "block";
         baropen = true;
@@ -361,7 +363,9 @@ let mobilenav = document.querySelector(".mobilebar");
     }
   })
 
-  document.querySelector("#cut").addEventListener("click" , () => {
+  let cross = document.querySelector("#cut");
+  
+  cross.addEventListener("click" , () => {
     if(baropen){
         mobilenav.style.display = "none";
         baropen = false;
